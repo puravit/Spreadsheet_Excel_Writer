@@ -17,20 +17,7 @@
         "php": ">=4.0.0"
     },
     "autoload": {
-        "psr-0": {
-			"": [ "", "pear/", "pear/spreadsheet_excel_writer/" ],
-			"Spreadsheet": ""
-		},
 		"classmap":[
-			"Spreadsheet/Excel/Writer.php",
-			"Spreadsheet/Excel/Writer/Parser.php",
-			"Spreadsheet/Excel/Writer/BIFFwriter.php",
-			"Spreadsheet/Excel/Writer/Workbook.php",
-			"Spreadsheet/Excel/Writer/Validator.php",
-			"Spreadsheet/Excel/Writer/Format.php",
-			"Spreadsheet/Excel/Writer/Worksheet.php"
-		],
-		"files":[
 			"Spreadsheet/Excel/Writer.php",
 			"Spreadsheet/Excel/Writer/Parser.php",
 			"Spreadsheet/Excel/Writer/BIFFwriter.php",
