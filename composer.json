@@ -7,10 +7,10 @@
     "license": "BSD",
     "authors": [
         {
-            "name": "Carsten Schmitz",
+            "name": "Carsten Schmitz"
         },
         {
-            "name": "Xavier Noguer",
+            "name": "Xavier Noguer"
         }
     ],
     "require": {
