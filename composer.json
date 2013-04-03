@@ -14,10 +14,9 @@
         }
     ],
     "require":{
-        "php":">=4.0.0",
-        "pear/PEAR":">=1.5.4"
+        "php": ">=4.0.0"
     },
-    "autoload":{
-        "classmap":[ "Spreadsheet_Excel_Writer/Spreadsheet/Excel/Writer.php" ]
+    "autoload": {
+        "psr-0": { "Spreadsheet_Excel_Writer": "" }
     }
 }
