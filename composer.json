@@ -17,6 +17,16 @@
         "php": ">=4.0.0"
     },
     "autoload": {
-        "psr-0": { "spreadsheet_excel_writer": "" }
+        "psr-0": { "Spreadsheet": "" },
+		"classmap":[
+			"Spreadsheet/Excel/Writer.php",
+			"Spreadsheet/Excel/Writer/Parser.php",
+			"Spreadsheet/Excel/Writer/BIFFwriter.php",
+			"Spreadsheet/Excel/Writer/Workbook.php",
+			"Spreadsheet/Excel/Writer/Validator.php",
+			"Spreadsheet/Excel/Writer/Format.php",
+			"Spreadsheet/Excel/Writer/Worksheet.php"
+		]
     }
+
 }
