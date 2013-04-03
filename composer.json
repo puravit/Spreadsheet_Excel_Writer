@@ -17,6 +17,6 @@
         "php": ">=4.0.0"
     },
     "autoload": {
-        "psr-0": { "Spreadsheet_Excel_Writer": "" }
+        "psr-0": { "spreadsheet_excel_writer": "" }
     }
 }
