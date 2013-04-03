@@ -38,7 +38,7 @@
 			"Spreadsheet/Excel/Writer/Validator.php",
 			"Spreadsheet/Excel/Writer/Format.php",
 			"Spreadsheet/Excel/Writer/Worksheet.php"
-		],
+		]
     }
 
 }
