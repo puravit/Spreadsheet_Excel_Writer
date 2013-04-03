@@ -1,0 +1,19 @@
+{
+    "name": "pear/Spreadsheet_Excel_Writer",
+    "type": "library",
+    "description": "Package for generating Excel spreadsheets",
+    "keywords": [ "" ],
+    "homepage": "http://pear.php.net/package/Spreadsheet_Excel_Writer/",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Carsten Schmitz",
+        },
+        {
+            "name": "Xavier Noguer",
+        }
+    ],
+    "require": {
+        "php": ">=4.0.0"
+    }
+}
