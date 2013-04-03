@@ -1,11 +1,11 @@
 {
-    "name": "pear/Spreadsheet_Excel_Writer",
+    "name": "pear/spreadsheet_excel_writer",
     "type": "library",
     "description": "Package for generating Excel spreadsheets",
-    "keywords": [ "" ],
-    "homepage": "http://pear.php.net/package/Spreadsheet_Excel_Writer/",
-    "license": "BSD",
-    "authors": [
+    "keywords":[ "Spreadsheet" ],
+    "homepage":"https://github.com/pear/Spreadsheet_Excel_Writer",
+    "license":"LGPL",
+    "authors":[
         {
             "name": "Carsten Schmitz"
         },
@@ -13,7 +13,11 @@
             "name": "Xavier Noguer"
         }
     ],
-    "require": {
-        "php": ">=4.0.0"
+    "require":{
+        "php":">=4.0.0",
+        "pear/PEAR":">=1.5.4"
+    },
+    "autoload":{
+        "classmap":[ "Spreadsheet_Excel_Writer/Spreadsheet/Excel/Writer.php" ]
     }
 }
