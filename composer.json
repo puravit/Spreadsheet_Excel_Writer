@@ -19,7 +19,7 @@
     "autoload": {
         "psr-0": {
             "Spreadsheet": "",
-        }
+        },
 		"classmap":[
 			"Spreadsheet/Excel/Writer.php",
 			"Spreadsheet/Excel/Writer/Parser.php",
