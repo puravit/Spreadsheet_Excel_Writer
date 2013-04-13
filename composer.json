@@ -19,6 +19,12 @@
     "autoload": {
         "psr-0": {
             "Spreadsheet": ""
-        }
-    }
+        },
+		"classmap": [
+			"Spreadsheet/"
+		]
+    },
+    "include-path": [
+        ""
+    ]
 }
